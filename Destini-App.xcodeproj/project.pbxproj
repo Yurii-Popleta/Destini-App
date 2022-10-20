@@ -7,23 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		84629F4828F5F42900A87014 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84629F4728F5F42900A87014 /* AppDelegate.swift */; };
-		84629F4A28F5F42900A87014 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84629F4928F5F42900A87014 /* SceneDelegate.swift */; };
-		84629F4C28F5F42900A87014 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84629F4B28F5F42900A87014 /* ViewController.swift */; };
-		84629F4F28F5F42900A87014 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84629F4D28F5F42900A87014 /* Main.storyboard */; };
-		84629F5128F5F42A00A87014 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84629F5028F5F42A00A87014 /* Assets.xcassets */; };
-		84629F5428F5F42A00A87014 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84629F5228F5F42A00A87014 /* LaunchScreen.storyboard */; };
+		84629F6C28F5F46100A87014 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84629F5F28F5F45F00A87014 /* AppDelegate.swift */; };
+		84629F6E28F5F46100A87014 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84629F6328F5F45F00A87014 /* SceneDelegate.swift */; };
+		84629F6F28F5F46100A87014 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84629F6428F5F46000A87014 /* Assets.xcassets */; };
+		84629F7028F5F46100A87014 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84629F6628F5F46000A87014 /* ViewController.swift */; };
+		84629F7128F5F46100A87014 /* StoryBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84629F6828F5F46100A87014 /* StoryBrain.swift */; };
+		84629F7228F5F46100A87014 /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84629F6928F5F46100A87014 /* Story.swift */; };
+		84629F7928F5F51500A87014 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84629F7728F5F51500A87014 /* Main.storyboard */; };
+		84629F7D28F5F5B200A87014 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84629F7C28F5F5B200A87014 /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		84629F4428F5F42900A87014 /* Destini-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Destini-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		84629F4728F5F42900A87014 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		84629F4928F5F42900A87014 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		84629F4B28F5F42900A87014 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		84629F4E28F5F42900A87014 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		84629F5028F5F42A00A87014 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		84629F5328F5F42A00A87014 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		84629F5528F5F42A00A87014 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84629F5E28F5F45E00A87014 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84629F5F28F5F45F00A87014 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84629F6328F5F45F00A87014 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		84629F6428F5F46000A87014 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84629F6628F5F46000A87014 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84629F6828F5F46100A87014 /* StoryBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryBrain.swift; sourceTree = "<group>"; };
+		84629F6928F5F46100A87014 /* Story.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Story.swift; sourceTree = "<group>"; };
+		84629F7828F5F51500A87014 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84629F7C28F5F5B200A87014 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +60,41 @@
 		84629F4628F5F42900A87014 /* Destini-App */ = {
 			isa = PBXGroup;
 			children = (
-				84629F4728F5F42900A87014 /* AppDelegate.swift */,
-				84629F4928F5F42900A87014 /* SceneDelegate.swift */,
-				84629F4B28F5F42900A87014 /* ViewController.swift */,
-				84629F4D28F5F42900A87014 /* Main.storyboard */,
-				84629F5028F5F42A00A87014 /* Assets.xcassets */,
-				84629F5228F5F42A00A87014 /* LaunchScreen.storyboard */,
-				84629F5528F5F42A00A87014 /* Info.plist */,
+				84629F5F28F5F45F00A87014 /* AppDelegate.swift */,
+				84629F6328F5F45F00A87014 /* SceneDelegate.swift */,
+				84629F6728F5F46100A87014 /* Model */,
+				84629F7628F5F51500A87014 /* View */,
+				84629F6528F5F46000A87014 /* Controller */,
+				84629F5E28F5F45E00A87014 /* Info.plist */,
+				84629F6428F5F46000A87014 /* Assets.xcassets */,
+				84629F7C28F5F5B200A87014 /* Launch Screen.storyboard */,
 			);
 			path = "Destini-App";
+			sourceTree = "<group>";
+		};
+		84629F6528F5F46000A87014 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				84629F6628F5F46000A87014 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		84629F6728F5F46100A87014 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				84629F6828F5F46100A87014 /* StoryBrain.swift */,
+				84629F6928F5F46100A87014 /* Story.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		84629F7628F5F51500A87014 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				84629F7728F5F51500A87014 /* Main.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -99,6 +129,7 @@
 				TargetAttributes = {
 					84629F4328F5F42900A87014 = {
 						CreatedOnToolsVersion = 14.0.1;
+						LastSwiftMigration = 1400;
 					};
 				};
 			};
@@ -125,9 +156,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84629F5428F5F42A00A87014 /* LaunchScreen.storyboard in Resources */,
-				84629F5128F5F42A00A87014 /* Assets.xcassets in Resources */,
-				84629F4F28F5F42900A87014 /* Main.storyboard in Resources */,
+				84629F7D28F5F5B200A87014 /* Launch Screen.storyboard in Resources */,
+				84629F7928F5F51500A87014 /* Main.storyboard in Resources */,
+				84629F6F28F5F46100A87014 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,29 +169,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84629F4C28F5F42900A87014 /* ViewController.swift in Sources */,
-				84629F4828F5F42900A87014 /* AppDelegate.swift in Sources */,
-				84629F4A28F5F42900A87014 /* SceneDelegate.swift in Sources */,
+				84629F7128F5F46100A87014 /* StoryBrain.swift in Sources */,
+				84629F7028F5F46100A87014 /* ViewController.swift in Sources */,
+				84629F6C28F5F46100A87014 /* AppDelegate.swift in Sources */,
+				84629F6E28F5F46100A87014 /* SceneDelegate.swift in Sources */,
+				84629F7228F5F46100A87014 /* Story.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		84629F4D28F5F42900A87014 /* Main.storyboard */ = {
+		84629F7728F5F51500A87014 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				84629F4E28F5F42900A87014 /* Base */,
+				84629F7828F5F51500A87014 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		84629F5228F5F42A00A87014 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				84629F5328F5F42A00A87014 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -285,6 +310,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = G29RW88958;
@@ -303,6 +329,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Yurii-Popleta.Destini-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -313,6 +340,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = G29RW88958;
